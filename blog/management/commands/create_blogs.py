@@ -24,5 +24,5 @@ class Command(BaseCommand):
             raise CommandError("'%s' is less than 1, add a positive number." % blogs)
 
         self.stdout.write(
-            self.style.SUCCESS('Successfully created %s blogs' % blogs[0])
+            self.style.SUCCESS("Successfully created %s blogs" % blogs[0])
         )
