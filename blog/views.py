@@ -15,6 +15,4 @@ def view_blog(request, blog_id: int):
     end_time = timezone.now()
     total_time = end_time - start_time
     print(total_time)
-    return render(
-        request, "blog.html", {"blog": blog}
-    )
+    return render(request, "blog.html", {"blog": blog})
