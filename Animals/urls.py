@@ -22,5 +22,4 @@ from blog.views import *
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("blog/<int:blog_id>/", view_blog, name="view_blog"),
-    # path("fill/<int:blog_id>/", fill_in, name="fill_in"),
 ]
