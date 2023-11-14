@@ -8,10 +8,10 @@ pip install -r requirements.txt
 
 '''docker run -p 6379:6379 redis'''
 
-3. Create <int> number blogs
+3. Create 'int' number blogs
 
 '''
-python manage.py create_blogs <int>
+python manage.py create_blogs 'int'
 '''
 
 4. Run Django webserver 
