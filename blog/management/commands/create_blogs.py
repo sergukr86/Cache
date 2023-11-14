@@ -19,7 +19,7 @@ class Command(BaseCommand):
                 Blog.objects.create(
                     title=fake.sentence(nb_words=6),
                     content=fake.text(max_nb_chars=200),
-                    updated_at=fake.date()
+                    updated_at=fake.date(),
                 )
         else:
             raise CommandError("'%s' is less than 1, add a positive number." % blogs)
