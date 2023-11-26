@@ -19,3 +19,8 @@ python manage.py create_blogs 'int'
 '''
 python manage.py runserver
 '''
+5. Your blog will be seen in url
+
+'''
+http://127.0.0.1:8000/blog/<int>/
+'''
